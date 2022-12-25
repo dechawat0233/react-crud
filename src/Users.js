@@ -53,7 +53,7 @@ export default function UserList() {
   }
 
   const UpdateUser = id => {
-    window.location = '/update/'+id
+    window.location = '/react-crud/#/update/'+id
   }
 
   const UserDelete = id => {
