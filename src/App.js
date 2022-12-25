@@ -42,7 +42,7 @@ export default function App() {
       <Navbar />
         <Routes>
           
-          <Route exact path='/react-crud' element={ <Users /> } />
+          <Route exact path='/' element={ <Users /> } />
           <Route path='/create' element={ <UserCreate /> } />
           <Route path='/update/:id' element={ <UserUpdate /> } />
           {/* <Route exact path='/' component={Users} />
