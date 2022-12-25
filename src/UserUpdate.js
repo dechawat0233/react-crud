@@ -68,7 +68,7 @@ export default function UserUpdate() {
       (result) => {
         alert(result['message'])
         if (result['status'] === 'ok') {
-          window.location.href = '/react-crud';
+          window.location.href = '/';
         }
       }
     )
