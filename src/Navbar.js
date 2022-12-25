@@ -41,7 +41,7 @@ export default function Navbar() {
         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Link className={classes.navlink} to ="/react-crud">
+          <Link className={classes.navlink} to ="/">
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               CRUD APP
             </Typography>
