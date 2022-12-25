@@ -6,7 +6,7 @@ import * as React from 'react';
 //   Route,
 //   Link
 // } from "react-router-dom";
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Routes } from 'react-router-dom';
 // import { BrowserRouter ,Router, Route, Link, Routes } from 'react-router-dom';
 import Navbar from "./Navbar"
 import Users from "./Users"
