@@ -51,7 +51,7 @@ export default function UserCreate() {
       (result) => {
         alert(result['message'])
         if (result['status'] === 'ok') {
-          window.location.href = '/';
+          window.location.href = '/reat-crud';
         }
       }
     )
